@@ -1,0 +1,168 @@
+*{
+    margin : 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+div{
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+input{
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+}
+button{
+    height: 40px;
+}
+/* Navigation bar (navbar) */
+.navbar{
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* menu and home */
+.menu-home{
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-home button{
+    cursor: pointer;
+}
+/*icons-size */
+.nav-icon{
+    font-size: 20px;
+}
+/* menu-button */
+.menu-button{
+    padding: 8px;
+    border: none;
+}
+/* Youtube-logo(yt-logo) */
+.yt-logo .logo img{
+    width: 96px;
+}
+.yt-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 14px 18px 16px;
+}
+
+/* search-box */
+.search-bar{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-box{
+    width: 95%;
+    margin: 0 0 0 32px;
+    display: flex;
+    justify-content: center;
+}
+.search-input{
+    width: 85%;
+    font-size: 17px;
+    font-family: Arial;
+    border: 1px solid #303030;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0 0 0 16px;
+}
+/* for focus mode in search-input */
+.search-input:focus{
+    border-color: #1C62B9;
+}
+.search-icon{
+    width: 64px;
+    background: transparent;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #303030;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+.search-icon i {
+    background-color: #303030;
+}
+.voice-search{
+    margin-left: 10px;
+    width: 40px;
+    background-color: #303030;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voice-search i {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* other(create, notifications and accounts) */
+.others{
+    width: 213px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* create content  */
+.create-content{
+    width: 97px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #303030;
+    cursor: pointer;
+}
+.create-content i,p {
+    border: none;
+    background: transparent;
+}
+.create-content p {
+    font-size: 16px;
+}
+/* Notifications */
+.notifications{
+    width: 40;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* Accounts */
+.account{
+    width: 60px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.account img{
+    width:50px;
+    border-radius: 50%;
+    padding: 0 6px 0 6px;
+}
