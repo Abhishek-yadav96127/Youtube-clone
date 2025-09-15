@@ -21,6 +21,8 @@ button{
 /* Navigation bar (navbar) */
 .navbar{
     height: 56px;
+    width: 100vw;
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -165,4 +167,54 @@ button{
     width:50px;
     border-radius: 50%;
     padding: 0 6px 0 6px;
+}
+
+/* feed-suggestion */
+.feed-suggestion{
+    height: 56px;
+    position: fixed;
+    top: 56px;
+    left: 80px;
+    right: 0px;
+    padding: 0 24px 0 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;  /* to make a scrollable navigation bar */
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+.feed-suggestion button{
+    border: none;
+    flex: 0 0 auto;
+    /* shorthand for flex-grow flex-shrink flex-basis -> the content of flex items will take as much space as they want */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background-color: #1e1d1d;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* to make the cursor disappear  */
+.feed-suggestion::-webkit-scrollbar {
+    display: none;
+}
+/* to make the button look different on focus(click) */
+.feed-suggestion button:Focus{
+    background-color: #303030;
+}
+
+/* side Navigation-panel */
+.side-navigation-panel{
+    position: fixed;
+    top: 56px;
+    width: 80px;
+    flex-direction: column;
+    justify-content: flex-start;
 }
