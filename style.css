@@ -277,3 +277,81 @@ button{
     display: flex;
     flex-wrap: wrap;
 }
+
+/* video-card */
+.video-card{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+
+/* thumbnail */
+.thumbnail{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+/* thumbnail image */
+.thumbnail img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: fill;
+    border-radius: 15px;
+}
+/* video info  */
+.video-info{
+    display: flex;
+    height: 88px;
+    background: transparent;
+}
+
+/* channel icon */
+.channel-icon{
+    height: 88px;
+    width: 36px;
+    margin: 0 12px 0 0;
+    background: transparent;
+}
+
+/* channel icon image */
+.channel-icon img{
+    width: 36px;
+    object-fit: fill;
+    border-radius: 50%;
+    background: transparent;
+}
+/* video detail */
+.video-detail{
+    display: flex;
+    flex-direction: column;
+    height: 88px;
+    width: 95%;
+    background: transparent;
+}
+/* Video title */
+.video-title{
+    height: 44px;
+    font-size: 1.1rem;
+    /* line-height: 2rem; */
+    font-weight: 500;
+    background: transparent;
+}
+/* channel name */
+.channel-name{
+    font-size: 0.95rem;
+    color: rgb(210, 201, 201);
+    font-family: Roboto, Arial;
+    margin: 2px 0 0 0;
+    background: transparent;
+}
+/* views */
+.views{
+    font-size: 0.95rem;
+    color: rgb(210, 201, 201);
+    font-family: Roboto, Arial;
+    margin: 2px 0 0 0;
+    background: transparent;
+}
