@@ -402,10 +402,26 @@ button{
     }
 }
 
-/* media queries for vh(max 710px)  */
-@media(max-width: 710px){
+/* media queries for vh(600px to 710 px)  */
+@media(min-width: 600px) and (max-width: 710px){
     .video-card{
         width: 95%;
         height: 60%;
+    }
+}
+
+/* media queries for vh(400px to 600 px)  */
+@media(min-width: 400px) and (max-width: 600px){
+    .video-card{
+        width: 95%;
+        height: 48%;
+    }
+}
+
+/* media queries for vh(max 400px)  */
+@media(max-width: 400px){
+    .video-card{
+        width: 95%;
+        height: 40%;
     }
 }
